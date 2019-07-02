@@ -1,0 +1,69 @@
+Legal words:
+--------------------------------------------------
+No.       Word      Type                Line No.  
+1         void      Keyword             1         
+2         main      Keyword             1         
+3         (         Boundary sign       1         
+4         )         Boundary sign       1         
+5         {         Boundary sign       2         
+6         int       Keyword             3         
+7         a         Identifier          3         
+8         =         Operator            3         
+9         3         Integer constant    3         
+10        ,         Boundary sign       3         
+11        b         Identifier          3         
+12        =         Operator            3         
+13        1         Integer constant    3         
+14        ;         Boundary sign       3         
+15        if        Keyword             4         
+16        (         Boundary sign       4         
+17        a         Identifier          4         
+18        >         Operator            4         
+19        b         Identifier          4         
+20        )         Boundary sign       4         
+21        {         Boundary sign       5         
+22        c         Identifier          6         
+23        =         Operator            6         
+24        7         Integer constant    6         
+25        ;         Boundary sign       6         
+26        if        Keyword             7         
+27        (         Boundary sign       7         
+28        a         Identifier          7         
+29        >         Operator            7         
+30        c         Identifier          7         
+31        )         Boundary sign       7         
+32        {         Boundary sign       8         
+33        c         Identifier          9         
+34        =         Operator            9         
+35        a         Identifier          9         
+36        ;         Boundary sign       9         
+37        }         Boundary sign       10        
+38        else      Keyword             11        
+39        {         Boundary sign       12        
+40        c         Identifier          13        
+41        =         Operator            13        
+42        a         Identifier          13        
+43        +         Operator            13        
+44        b         Identifier          13        
+45        ;         Boundary sign       13        
+46        }         Boundary sign       14        
+47        }         Boundary sign       15        
+48        else      Keyword             16        
+49        {         Boundary sign       17        
+50        c         Identifier          18        
+51        =         Operator            18        
+52        1         Integer constant    18        
+53        ;         Boundary sign       18        
+54        }         Boundary sign       19        
+55        }         Boundary sign       20        
+56        #         End sign            21        
+--------------------------------------------------
+
+Error words:
+--------------------------------------------------
+                       None
+--------------------------------------------------
+
+--------------------------------------------------
+Info: Successfully lexically analyzed input text.
+--------------------------------------------------

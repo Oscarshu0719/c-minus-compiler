@@ -1,0 +1,17 @@
+MOV sum, 0
+MOV a, 0
+MOV limit, 10
+MOV i, 1
+JL T1
+JZ 18
+ADD T2, sum
+MOV sum, T2
+MOV i, 1
+JL T3
+JZ 16
+ADD T4, a
+MOV a, T4
+INC i
+JMP 10
+INC i
+JMP 5

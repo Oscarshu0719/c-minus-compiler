@@ -1,0 +1,11 @@
+void main()
+{
+    int i = 0, limit = 10, sum = 0;
+
+    while (i < limit)
+    {
+        i = i + 1;
+        sum = sum + i;
+    }
+}
+#

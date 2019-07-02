@@ -1,0 +1,78 @@
+Legal words:
+--------------------------------------------------
+No.       Word      Type                Line No.  
+1         void      Keyword             1         
+2         main      Keyword             1         
+3         (         Boundary sign       1         
+4         )         Boundary sign       1         
+5         {         Boundary sign       2         
+6         int       Keyword             3         
+7         sum       Identifier          3         
+8         =         Operator            3         
+9         0         Integer constant    3         
+10        ,         Boundary sign       3         
+11        a         Identifier          3         
+12        =         Operator            3         
+13        0         Integer constant    3         
+14        ;         Boundary sign       3         
+15        int       Keyword             4         
+16        limit     Identifier          4         
+17        =         Operator            4         
+18        10        Integer constant    4         
+19        ;         Boundary sign       4         
+20        for       Keyword             5         
+21        (         Boundary sign       5         
+22        int       Keyword             5         
+23        i         Identifier          5         
+24        =         Operator            5         
+25        1         Integer constant    5         
+26        ;         Boundary sign       5         
+27        i         Identifier          5         
+28        <         Operator            5         
+29        limit     Identifier          5         
+30        ;         Boundary sign       5         
+31        i         Identifier          5         
+32        ++        Operator            5         
+33        )         Boundary sign       5         
+34        {         Boundary sign       6         
+35        sum       Identifier          7         
+36        =         Operator            7         
+37        sum       Identifier          7         
+38        +         Operator            7         
+39        a         Identifier          7         
+40        ;         Boundary sign       7         
+41        for       Keyword             8         
+42        (         Boundary sign       8         
+43        int       Keyword             8         
+44        i         Identifier          8         
+45        =         Operator            8         
+46        1         Integer constant    8         
+47        ;         Boundary sign       8         
+48        i         Identifier          8         
+49        <         Operator            8         
+50        11        Integer constant    8         
+51        ;         Boundary sign       8         
+52        i         Identifier          8         
+53        ++        Operator            8         
+54        )         Boundary sign       8         
+55        {         Boundary sign       9         
+56        a         Identifier          10        
+57        =         Operator            10        
+58        a         Identifier          10        
+59        +         Operator            10        
+60        i         Identifier          10        
+61        ;         Boundary sign       10        
+62        }         Boundary sign       11        
+63        }         Boundary sign       12        
+64        }         Boundary sign       13        
+65        #         End sign            14        
+--------------------------------------------------
+
+Error words:
+--------------------------------------------------
+                       None
+--------------------------------------------------
+
+--------------------------------------------------
+Info: Successfully lexically analyzed input text.
+--------------------------------------------------

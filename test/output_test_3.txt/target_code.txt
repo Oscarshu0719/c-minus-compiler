@@ -1,0 +1,13 @@
+MOV a, 3
+MOV b, 1
+JG T1
+JZ 13
+MOV c, 7
+JG T2
+JZ 10
+MOV c, a
+JMP 12
+ADD T3, a
+MOV c, T3
+JMP 14
+MOV c, 1

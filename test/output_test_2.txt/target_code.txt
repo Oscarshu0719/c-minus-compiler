@@ -1,0 +1,10 @@
+MOV i, 0
+MOV limit, 10
+MOV sum, 0
+JL T1
+JZ 11
+ADD T2, i
+MOV i, T2
+ADD T3, sum
+MOV sum, T3
+JMP 4

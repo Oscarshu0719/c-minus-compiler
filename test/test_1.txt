@@ -1,0 +1,14 @@
+void main()
+{
+    int sum = 0, a = 0;
+    int limit = 10;
+    for (int i = 1; i < limit; i++) 
+    {
+        sum = sum + a;
+        for (int i = 1; i < 11; i++)
+        {
+            a = a + i;
+        }
+    }
+}
+#

@@ -1,0 +1,13 @@
+Quadruples: 
+--------------------------------------------------
+No.       OP        ARG1      ARG2      RES       
+1         =         0         /         i         
+2         =         10        /         limit     
+3         =         0         /         sum       
+4         <         i         limit     T1        
+5         FJ        T1        /         11        
+6         +         i         1         T2        
+7         =         T2        /         i         
+8         +         sum       i         T3        
+9         =         T3        /         sum       
+10        RJ        /         /         4         

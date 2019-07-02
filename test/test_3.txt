@@ -1,0 +1,21 @@
+void main()
+{
+    int a = 3, b = 1; 
+    if (a > b)
+    {
+        c = 7;
+        if (a > c)
+        {
+            c = a;
+        }
+        else 
+        {
+            c = a + b;
+        }
+    }
+    else 
+    {
+        c = 1;
+    }
+}
+#
